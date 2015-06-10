@@ -26,14 +26,6 @@
 	</div>
 
 	<div class="row" id="row2">
-		<div class="col-center" id="hard-work">
-			<h4>"Hard work pays forever."</h4>
-			<h5>Work hard.</h5>
-			<h5>Create hard.</h5>
-		</div>
-	</div>
-
-	<div class="row" id="row3">
 		<div class="col-center" id="welcome">
 			<h1>Welcome!</h1>
 			<h2>Thank you for visiting!</h2>
@@ -41,35 +33,37 @@
 		</div>
 	</div>
 
-	<div class="row" id="row4">
+	<div class="row" id="row3">
 		<div class="col-center" id="believe">
 			<h2>I believe...</h2>
-			<img src="">
+
+			<img src="devImages/H_W_In.png" atl="element logo" class="element">
 			<p>hard work is the mother of innovation.</p>
-			<img src="">
+
+			<img src="devImages/P_Ct_S.png" atl="element logo" class="element">
 			<p>perseverance and careful thought can solve any problem.</p>
-			<img src="">
+
+			<img src="devImages/D_(E_W).png" atl="element logo" class="element">
 			<p>discipline protects against error and waste.</p>
-			<img src="">
+
+			<img src="devImages/Mo_Mt_Ex.png" atl="element logo" class="element">
 			<p>motivation, method, and time are the elements of excellence.</p>
 		</div>
 	</div>
 
-	<div class="row" id="row5">
+	<div class="row" id="row4">
 		<div class="col-center" id="want">
-			<h2>I want...</h2>
-			<img src="">
-			<p>to create great things that help others.</p>
-			<img src="">
-			<p>my work to be known for its oustanding quality, beauty, and innovation.</p>
-			<img src="">
-			<p>discipline protects against error and waste.</p>
-			<img src="">
-			<p>to always be learning something new.</p>
+			<h2>I work...</h2>
+
+			<ul>
+				<li>to create great things that help others.</li>
+				<li>toward ever-greater quality, beauty, and innovation.</li>
+				<li>to always be learning something new.</li>
+			</ul>
 		</div>
 	</div>
 
-	<div class="row" id="row6">
+	<div class="row" id="row5">
 		<div class="col-center" id="contact">
 			<h2>If you...</h2>
 			<p>would like me to create something great for you, please contact me:</p>
@@ -79,11 +73,19 @@
 		</div>
 	</div>
 
+	<div class="row" id="row6">
+		<div class="col-center" id="links">
+			<p><a href="work">My Work</a></p>
+			<p><a href="https://github.com/JDay18Gi">Github</a></p>
+			<p><a href="https://www.linkedin.com/pub/jason-girard/84/989/828">Linkedin</a></p>
+		</div>
+	</div>
+
 	<div class="row" id="row7">
-		<div class="col-center" id="links"></div>
-		<p>Github</p>
-		<p>Linkedin</p>
-		<p>My Work</p>
+		<div class="col-center" id="hard-work">
+			<h4>"Hard work pays forever."</h4>
+			<h5>Work hard. Create hard.</h5>
+		</div>
 	</div>
 
 

@@ -4,8 +4,8 @@
 
 html {
 	background: #cfc url(../devImages/devHomImage.jpg) no-repeat center center fixed;
-  	background-size: cover;
-  	overflow-x: hidden;
+	background-size: cover;
+	overflow-x: hidden;
 }
 
 * {
@@ -26,14 +26,6 @@ li {
 	font-size: 1.2em;
 }
 
-p {
-	text-indent: 1em;
-}
-
-h2 {
-	margin: 5% 0 1% 0;
-}
-
 a {
 	text-decoration: none;
 	color: #66ccff;
@@ -43,7 +35,6 @@ a {
 
 a:hover {
 	color: #cfc;
-	background:
 
 }
 
@@ -59,62 +50,17 @@ ul {
 	margin: 0;
 }
 
-.white {
-	color: rgba(245, 255, 255, 0.99);
-}
 
-/* Navigation top left */
-
-nav p {
-	margin: 3%;
-	font-weight: 900;
-	display: inline-block;
-	text-indent: 0;
-
-	padding: 1%;
-	border-radius: 50%;
-	background-color: rgba(245, 255, 255, 0.6);
-	transition: background 2s ease-out;
-}
-
-nav p:hover {
-	background-color: rgba(245, 255, 255, 0.01);
-}
-
-/* first section in header */
-
-section {
-	background: rgba(245, 255, 255, 0.8);
-	display: inline-block;
-	max-width: 28em;
-	width: 90%;
-
-	margin: 1%;
-	padding: 2%;
-	border-radius: 20px;
-	transition: background 3s ease-out;
-}
-
-section li:hover {
-	opacity: 0.7;
-}
-
-section a:hover {
-	color: #3399FF
-}
-
-section:hover {
-	background: rgba(219, 255, 219, 0.8);
-}
-
-/* ====== properties and values for #welcome =======  */
-/* ====== properties and values for #welcome =======  */
-/* ====== properties and values for #welcome =======  */
+/* ====== properties and values for #welcomePage =======  */
+/* ====== properties and values for #welcomePage =======  */
+/* ====== properties and values for #welcomePage =======  */
 
 #welcomePage {
 	width: 100%;
 	overflow-x: hidden;
+
 	text-align: center;
+
 	background-color: rgb(102, 204, 255);
 	-webkit-transition: background-color 2s ease-out;
     -moz-transition: background-color 2s ease-out;
@@ -129,8 +75,16 @@ section:hover {
 	-webkit-display: flex-box;
 }
 
-.col-center {
-	margin: 0 auto 0 auto;
+
+
+#believe,
+#want,
+#contact {
+	background-color: rgba(102, 204, 255, 0.9);
+	border-radius: 2em;
+	width: 55%;
+	margin: 20% auto 2% auto;
+	padding: 0.01em 1% 1em 1%;
 }
 
 #logo-container {
@@ -139,6 +93,83 @@ section:hover {
 }
 
 #logo {
-	margin: -15% auto 0 auto;
+	margin: -10% auto 0 auto;
 	width: 100%;
+
+	-webkit-transition: width 2s ease-out;
+	-moz-transition: width 2s ease-out;
+	-o-transition: width 2s ease-out;
+	transition: width 2s ease-out;
+}
+
+#welcomePage h1 {
+	color: white;
+	font-size: 5em;
+}
+
+#welcomePage h2 {
+	margin: 5% 0 0 0;
+	padding: 1%;
+	color: white;
+	font-size: 3em;
+}
+
+#welcomePage h3 {
+	font-weight: bold;
+}
+
+#welcomePage p,
+#welcomePage li {
+	font-size: 2em;
+	font-weight: bold;
+	text-indent: 0;
+}
+
+.element {
+	width: 50%;
+}
+
+#welcomePage #row3 p,
+#welcomePage #row5 p,
+#welcomePage li {
+	margin: 2% auto 5% auto;
+}
+
+/* I work... section */
+
+#welcomePage ul {
+	padding: 0%;
+	text-align: center;
+	list-style-type: none;
+}
+
+/* if you... */
+
+#row6 {
+	margin: 5% 0 5% 0;
+}
+
+#links {
+	display: inline-flex;
+	width: 50%;
+}
+
+#links p {
+	flex-grow: 1;
+	padding: 1% auto 1% auto;
+	background-color: rgba(245, 255, 255, 0.9);
+	transition: background 2s ease-out;
+	padding: 1%;
+	border-radius: 50%;
+}
+
+#links p:hover {
+	padding: 1% auto 1% auto;
+	background-color: none;
+}
+
+/* "Work Hard" */
+
+#row7 {
+	margin: 15% 0 5% 0;
 }
