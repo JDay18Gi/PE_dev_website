@@ -1,0 +1,144 @@
+
+
+/* values for entire site */
+
+html {
+	background: #cfc url(../devImages/devHomImage.jpg) no-repeat center center fixed;
+  	background-size: cover;
+  	overflow-x: hidden;
+}
+
+* {
+	font-family: "Josefin Sans", "Lora", sans-serif;
+}
+
+h1,
+h2,
+p,
+li {
+	padding: 0;
+	margin: 0 0 0 0;
+	color: #293329;
+}
+
+p,
+li {
+	font-size: 1.2em;
+}
+
+p {
+	text-indent: 1em;
+}
+
+h2 {
+	margin: 5% 0 1% 0;
+}
+
+a {
+	text-decoration: none;
+	color: #66ccff;
+	transition: color 2s ease-out;
+
+}
+
+a:hover {
+	color: #cfc;
+	background:
+
+}
+
+h1 {
+	margin: 0 0 5% 0;
+}
+
+li {
+	line-height: 1.5em;
+}
+
+ul {
+	margin: 0;
+}
+
+.white {
+	color: rgba(245, 255, 255, 0.99);
+}
+
+/* Navigation top left */
+
+nav p {
+	margin: 3%;
+	font-weight: 900;
+	display: inline-block;
+	text-indent: 0;
+
+	padding: 1%;
+	border-radius: 50%;
+	background-color: rgba(245, 255, 255, 0.6);
+	transition: background 2s ease-out;
+}
+
+nav p:hover {
+	background-color: rgba(245, 255, 255, 0.01);
+}
+
+/* first section in header */
+
+section {
+	background: rgba(245, 255, 255, 0.8);
+	display: inline-block;
+	max-width: 28em;
+	width: 90%;
+
+	margin: 1%;
+	padding: 2%;
+	border-radius: 20px;
+	transition: background 3s ease-out;
+}
+
+section li:hover {
+	opacity: 0.7;
+}
+
+section a:hover {
+	color: #3399FF
+}
+
+section:hover {
+	background: rgba(219, 255, 219, 0.8);
+}
+
+/* ====== properties and values for #welcome =======  */
+/* ====== properties and values for #welcome =======  */
+/* ====== properties and values for #welcome =======  */
+
+#welcomePage {
+	width: 100%;
+	overflow-x: hidden;
+	text-align: center;
+	background-color: rgb(102, 204, 255);
+	-webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+
+.row {
+	display: flex-box;
+	-o-display: flex-box;
+	-moz-display: flex-box;
+	-webkit-display: flex-box;
+}
+
+.col-center {
+	margin: 0 auto 0 auto;
+}
+
+#logo-container {
+	width: 100%;
+	margin: 0 auto 0 auto;
+}
+
+#logo {
+	margin: -15% auto 0 auto;
+	width: 100%;
+}

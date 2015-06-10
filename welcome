@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<link rel="stylesheet" href="devCSS/Normalize.css">
+	<link rel="stylesheet" href="devCSS/devCSS.css">
+	<script type="text/javascript"></script>
+
+	<link rel="icon" media="all" type="image/x-ico" href="devImages/Ch_logo_blue.ico">
+	<link rel="shortcut icon'" href="devImages/Ch_logo_blue.ico" type="image/x-ico"/>
+	<link href="http://fonts.googleapis.com/css?family=Lora%7CJosefin+Sans%7CIndie+Flower" rel="stylesheet" type="text/css">
+
+	<title>Welcome!</title>
+</head>
+
+<body id="welcomePage">
+
+	<div class="row" id="row1">
+		<div class="col-center" id="logo-container">
+			<img id="logo" src="devimages/Ch_logo_w.png" alt="Create Hard Brand Logo">
+		</div>
+	</div>
+
+	<div class="row" id="row2">
+		<div class="col-center" id="hard-work">
+			<h4>"Hard work pays forever."</h4>
+			<h5>Work hard.</h5>
+			<h5>Create hard.</h5>
+		</div>
+	</div>
+
+	<div class="row" id="row3">
+		<div class="col-center" id="welcome">
+			<h1>Welcome!</h1>
+			<h2>Thank you for visiting!</h2>
+			<h3>I create websites and web applications.</h3>
+		</div>
+	</div>
+
+	<div class="row" id="row4">
+		<div class="col-center" id="believe">
+			<h2>I believe...</h2>
+			<img src="">
+			<p>hard work is the mother of innovation.</p>
+			<img src="">
+			<p>perseverance and careful thought can solve any problem.</p>
+			<img src="">
+			<p>discipline protects against error and waste.</p>
+			<img src="">
+			<p>motivation, method, and time are the elements of excellence.</p>
+		</div>
+	</div>
+
+	<div class="row" id="row5">
+		<div class="col-center" id="want">
+			<h2>I want...</h2>
+			<img src="">
+			<p>to create great things that help others.</p>
+			<img src="">
+			<p>my work to be known for its oustanding quality, beauty, and innovation.</p>
+			<img src="">
+			<p>discipline protects against error and waste.</p>
+			<img src="">
+			<p>to always be learning something new.</p>
+		</div>
+	</div>
+
+	<div class="row" id="row6">
+		<div class="col-center" id="contact">
+			<h2>If you...</h2>
+			<p>would like me to create something great for you, please contact me:</p>
+			<ul>
+				<li>jason.dayne@gmail.com</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="row" id="row7">
+		<div class="col-center" id="links"></div>
+		<p>Github</p>
+		<p>Linkedin</p>
+		<p>My Work</p>
+	</div>
+
+
+	<script src="devJS/devJQuery.js"></script>
+	<script src="devJS/devJS.js"></script>
+
+</body>
