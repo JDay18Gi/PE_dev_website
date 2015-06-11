@@ -1,11 +1,12 @@
 
-
 /* values for entire site */
 
 html {
 	background: #cfc url(../devImages/devHomImage.jpg) no-repeat center center fixed;
 	background-size: cover;
 	overflow-x: hidden;
+	width: 100%;
+
 }
 
 * {
@@ -17,7 +18,7 @@ h2,
 p,
 li {
 	padding: 0;
-	margin: 0 0 0 0;
+	margin:0;
 	color: #293329;
 }
 
@@ -156,11 +157,19 @@ ul {
 
 #links p {
 	flex-grow: 1;
-	padding: 1% auto 1% auto;
+	margin: 4%;
+	min-height: 4em;
+	min-width: 4em;
+
 	background-color: rgba(245, 255, 255, 0.9);
 	transition: background 2s ease-out;
-	padding: 1%;
 	border-radius: 50%;
+}
+
+#links p a {
+	text-align: center;
+	vertical-align: -1.5em;
+	padding: auto;
 }
 
 #links p:hover {
@@ -173,3 +182,156 @@ ul {
 #row7 {
 	margin: 15% 0 5% 0;
 }
+
+
+/*
+====== properties and values for #workPage =======
+====== properties and values for #workPage =======
+====== properties and values for #workPage =======
+*/
+
+#workPage {
+	width: 100%;
+	background: rgba(102, 204, 255, 0.9);
+}
+
+#workPage .row {
+	width: 100%;
+	display: inline-flex;
+}
+
+#workPage .column-left {
+	flex-grow: 1;
+	float: left;
+	width: 40%;
+	padding: 1%;
+	margin: 1% auto 2% auto;
+}
+
+#workPage .column-right {
+	flex-grow: 1;
+	float: right;
+	width: 40%;
+	padding: 1%;
+	margin: 1% auto 2% auto;
+}
+
+#workPage .column-center {
+	width: 100%;
+}
+
+/* ---- Navigation Values ----- */
+
+.navLeft {
+	float: left;
+	margin: 2%;
+	padding: 1%;
+	width: 25%;
+}
+
+.navRight {
+	float: right;
+	margin: 2%;
+	padding: 1%;
+	width: 65%;
+}
+
+
+#navLogo {
+	margin: -4% auto 2% auto;
+	width: 55%;
+}
+
+#workPage ul {
+	list-style: none;
+	display: inline-flex;
+	padding: 0;
+	width: 100%;
+}
+
+#workPage ul li {
+	background: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	width: 28%;
+	padding: 0 auto 0 auto;
+	margin: 1% 2% 1% 2%;
+	border: 0.2em solid white;
+	border-radius: 2em;
+	font-weight: 700;
+	flex-grow: 1;
+}
+
+#workPage ul li {
+	padding: 0.3em 0 0.1em 0;
+}
+
+#workPage .navRight p {
+	width: 90%;
+	margin: 2% 2% 1% 10%;
+	flex-grow: 1;
+}
+
+/* ---- WORK PROJECTS SECTION ----- */
+
+.workSection {
+	padding: 3%;
+	width: 94%;
+	text-align: right;
+}
+
+.white {
+	color: white;
+}
+
+#workPage .row {
+	padding: 1%;
+	margin: 1%;
+	width: 98%;
+}
+
+#workPage .column-center {
+	width: 100%;
+}
+
+#workPage h1 {
+	margin: 1%;
+}
+
+#workPage h2 {
+	margin: 1% 5% 2% 1%;
+}
+
+#pLinks .column-center {
+	display: inline-flex;
+}
+
+#pLinks p {
+	margin: -2% auto -2% auto;
+	text-align: center;
+	padding: 1% 2% 1% 2%;
+	color: white;
+	background: black;
+	border: 2px solid white;
+	border-radius: 2px;
+}
+
+#pSlider {
+	width: 100%;
+	height: 30em;
+	overflow: hidden;
+	position: relative;
+}
+
+#pSlider img {
+	width: 100%;
+	position: relative;
+}
+
+#pSlider a {
+	position: absolute;
+
+}
+
+#pSlider a:last-child {
+}
+

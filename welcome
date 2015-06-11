@@ -14,7 +14,7 @@
 	<link rel="shortcut icon'" href="devImages/Ch_logo_blue.ico" type="image/x-ico"/>
 	<link href="http://fonts.googleapis.com/css?family=Lora%7CJosefin+Sans%7CIndie+Flower" rel="stylesheet" type="text/css">
 
-	<title>Welcome!</title>
+	<title>Welcome! —Jason, developer</title>
 </head>
 
 <body id="welcomePage">
@@ -76,8 +76,8 @@
 	<div class="row" id="row6">
 		<div class="col-center" id="links">
 			<p><a href="work">My Work</a></p>
-			<p><a href="https://github.com/JDay18Gi">Github</a></p>
-			<p><a href="https://www.linkedin.com/pub/jason-girard/84/989/828">Linkedin</a></p>
+			<p><a href="https://github.com/JDay18Gi" target="_blank">Github</a></p>
+			<p><a href="https://www.linkedin.com/pub/jason-girard/84/989/828" target="_blank">Linkedin</a></p>
 		</div>
 	</div>
 

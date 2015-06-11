@@ -27,6 +27,44 @@ $(document).ready(function() {
 		}
 	});
 
+	setInterval( function() {
+		$("#pSlider a:last-child").fadeTo(1000, 0, function() {
+			$("#pSlider a:last-child").delay(3000).fadeTo(1000, 1);
+		});
+	}, 8000);
+
+	/*setInterval( function() {
+		$("#pSlider a:last-child").fadeTo(1000, 0, function(){
+			setTimeout(function() {$("#pSlider a:last-child").fadeTo(1000, 1,);}, 4000);
+		});
+	}, 8000);
+
+//fad in and fade out at proper inveral Opacty 0-1
+//change and let css dictate fade;
+
+
+
+	/* setInterval($("#p1 #pSlider").css("background-image", "url(devImages/genSite2.png)");
+			, 3000);
+
+	$(function(){
+	$(".fadein img:gt(0)").hide();
+	setInterval(function(){
+		$('.fadein :first-child').fadeOut()
+		.next('img').fadeIn()
+			.end().appendTo('.fadein');},
+		3000);
+});
+
+
+
+	/*var projectSlider = function(projectNum) {
+		var id = "'#p"+projectNum+" #pSlider'";
+		var slider = $(id).css("background-image", "url(devImages/genSite2.png)");
+		setInterval(slider, 3000);
+	}
+
+	projectSlider(1);*/
 
 });
 

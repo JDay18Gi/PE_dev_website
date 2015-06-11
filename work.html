@@ -5,33 +5,112 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
 	<link rel="stylesheet" href="devCSS/Normalize.css">
 	<link rel="stylesheet" href="devCSS/devCSS.css">
-	<link rel="icon" media="all" type="image/x-ico" href="devImages/devFavicon.ico">
-	<link rel="shortcut icon'" href="devImages/devFavicon.ico" type="image/x-ico"/>
+	<script type="text/javascript"></script>
+
+	<link rel="icon" media="all" type="image/x-ico" href="devImages/Ch_logo_blue.ico">
+	<link rel="shortcut icon'" href="devImages/Ch_logo_blue.ico" type="image/x-ico"/>
 	<link href="http://fonts.googleapis.com/css?family=Lora%7CJosefin+Sans%7CIndie+Flower" rel="stylesheet" type="text/css">
-	<title>Jason — Web Developer</title>
+
+	<title>Jason — web developer</title>
 </head>
 
-<body id="resume">
+<body id="workPage">
 
-	<header>
+	<header class="row navRow">
+		<div class="navLeft">
+			<a href="home"><img id="navLogo" src="devImages/Ch_logo_small.png"></a>
+		</div>
 
-		<nav>
-			<p>
-				<span class="white">*</span>
-				<a href="home.html">home</a><span class="white">*</span>
-			</p>
-			<p>
-				<span class="white">*</span>
-				<a href="Resume.html">resume</a><span class="white">*</span>
-			</p>
-		</nav>
-		<section>
-			<p>Projects coming soon... for now visit my <a href="https://github.com/JDay18Gi">GitHub account</a>.</p>
-		</section>
-
+		<div class="navRight">
+			<ul>
+				<li><a href="home">Home</a></li>
+				<li><a href="https://github.com/JDay18Gi" target="_blank">Github</a></li>
+				<li><a href="https://www.linkedin.com/pub/jason-girard/84/989/828" target="_blank">Linkedin</a></li>
+			</ul>
+			<p>e-mail: jason.dayne@gmail.com</p>
+		</div>
 	</header>
+
+<section class="workSection" id="p1">
+	<div class="row" id="pTitle">
+		<div class="column-center">
+			<h1><b class="white">Project:</b> Reformation Wall — Geneva, Switzerland</h1>
+			<h2><b class="white">for:</b> personal</h2>
+		</div>
+	</div>
+
+	<div class="row" id="pHighlights">
+		<div class="column-center">
+			<ul>
+				<li>Google maps API</li>
+				<li>horizontal scrolling</li>
+				<li>HTML &amp; CSS</li>
+				<li>javaScript / jQuery</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="row" id="pLinks">
+		<div class="column-center">
+			<p><a href="http://www.example.com" target="_blank">Visit the site!</a></p>
+			<p><a href="http://www.example.com" target="_blank">View the code!</a></p>
+		</div>
+	</div>
+
+	<div class="row" id="pSlider">
+		<div class="sliderContainer" id="slider1">
+			<a href="http://www.example.com" target="_blank"><img src="devImages/genSite2.png"></a>
+			<a href="http://www.example.com" target="_blank"><img src="devImages/genSite1.png"></a>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="workSection" id="p2">
+	<div class="row" id="row1">
+		<div class="column-left"></div>
+		<div class="column-right"></div>
+	</div>
+
+	<div class="row" id="row2">
+		<div class="column-left"></div>
+		<div class="column-right"></div>
+	</div>
+
+	<div class="row" id="workLinks">
+		<div class="column-left"></div>
+		<div class="column-right"></div>
+	</div>
+
+	<div class="row" id="workSlider">
+		<div class="sliderContainer" id="slider1">
+			<img src="">
+		</div>
+	</div>
+</section>
+
+
+
+	<footer class="row navRow">
+		<div class="navLeft">
+			<img id="navLogo" src="devImages/Ch_logo_small.png">
+		</div>
+
+		<div class="navRight">
+			<ul>
+				<li><a href="home">Home</a></li>
+				<li><a href="https://github.com/JDay18Gi" target="_blank">Github</a></li>
+				<li><a href="https://www.linkedin.com/pub/jason-girard/84/989/828" target="_blank">Linkedin</a></li>
+			</ul>
+			<p>e-mail: jason.dayne@gmail.com</p>
+	</footer>
+
+<script src="devJS/devJQuery.js"></script>
+<script src="devJS/devJS.js"></script>
 
 </body>
 
