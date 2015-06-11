@@ -63,30 +63,7 @@ $(document).ready(function() {
 			next();
 			});
 		}, 20000);
-
-	/*setInterval( function() {
-		$("#pSlider a:last-child").fadeTo(1000, 0, function(){
-			setTimeout(function() {$("#pSlider a:last-child").fadeTo(1000, 1,);}, 4000);
-		});
-	}, 8000);
-
-//fad in and fade out at proper inveral Opacty 0-1
-//change and let css dictate fade;
-
-
-
-	/* setInterval($("#p1 #pSlider").css("background-image", "url(devImages/genSite2.png)");
-			, 3000);
-
-	$(function(){
-	$(".fadein img:gt(0)").hide();
-	setInterval(function(){
-		$('.fadein :first-child').fadeOut()
-		.next('img').fadeIn()
-			.end().appendTo('.fadein');},
-		3000);
 });
-
 
 
 	/*var projectSlider = function(projectNum) {
@@ -96,12 +73,3 @@ $(document).ready(function() {
 	}
 
 	projectSlider(1);*/
-
-});
-
-
-
-
-/*
-		$("#welcomePage").fadeTo(1000, 0.2, function(){
-	})*/
