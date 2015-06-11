@@ -259,6 +259,7 @@ ul {
 	border-radius: 2em;
 	font-weight: 700;
 	flex-grow: 1;
+	max-width: 30%;
 }
 
 #workPage ul li {
@@ -286,7 +287,7 @@ ul {
 #workPage .row {
 	padding: 1%;
 	margin: 1%;
-	width: 98%;
+	width: 94%;
 }
 
 #workPage .column-center {
@@ -322,16 +323,23 @@ ul {
 	position: relative;
 }
 
-#pSlider img {
-	width: 100%;
-	position: relative;
+.sliderContainer {
+	position: static;
 }
 
 #pSlider a {
 	position: absolute;
-
+	width: 98%;
+	height: 100%;
 }
 
-#pSlider a:last-child {
+#pSlider img {
+	position: relative;
+	width: 100%;
 }
 
+#workPage #p3,
+#workPage #p1 {
+	background-color: rgba(245, 255, 255, 0);
+	transition: background 7s ease-out;
+}

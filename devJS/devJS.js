@@ -1,6 +1,16 @@
 
 
 $(document).ready(function() {
+
+/* ------ Welcome Page -----  */
+
+//scroll for click welcome logo
+	$("#logo").on("click", function() {
+		var y = $(window).scrollTop();
+		$(window).scrollTop(y+150);
+	});
+
+//front page background fading on startup
 	$("#welcomePage").fadeTo(0 , 0);
 	$("#welcomePage").fadeTo(6500 , 1, function() {
 			$("#welcomePage").fadeTo(2000 , 0.6, function() {
@@ -10,7 +20,8 @@ $(document).ready(function() {
 			});
 	});
 
-	$(window).on('scroll', function() {
+//logo animation upon scroll
+	$(window).on("scroll", function() {
 		var y_scroll = window.pageYOffset;
 
 		if(y_scroll > 100) {
@@ -27,11 +38,31 @@ $(document).ready(function() {
 		}
 	});
 
-	setInterval( function() {
+// projectImage sliders
+	setInterval(function() {
 		$("#pSlider a:last-child").fadeTo(1000, 0, function() {
 			$("#pSlider a:last-child").delay(3000).fadeTo(1000, 1);
 		});
 	}, 8000);
+
+// background color alternating
+
+	$("#workPage #p3, #workPage #p1").delay(5000).queue(function (next) {
+			$(this).css("background-color", "rgba(255, 255, 255, 0.5)");
+			next();
+			});
+
+	setInterval( function() {
+		$("#workPage #p3, #workPage #p1").queue(function (next) {
+			$(this).css("background-color", "rgba(102, 204, 255, 0.9)");
+			next();
+			});
+
+		$("#workPage #p3, #workPage #p1").delay(10000).queue(function (next) {
+			$(this).css("background-color", "rgba(255, 255, 255, 0.5)");
+			next();
+			});
+		}, 20000);
 
 	/*setInterval( function() {
 		$("#pSlider a:last-child").fadeTo(1000, 0, function(){
