@@ -71,7 +71,7 @@ ul {
     transition: background-color 2s ease-out;
 }
 
-.row {
+#welcomePage .row {
 	display: flex-box;
 	-o-display: flex-box;
 	-moz-display: flex-box;
@@ -80,9 +80,9 @@ ul {
 
 
 
-#believe,
-#want,
-#contact {
+#welcomePage #believe,
+#welcomePage #want,
+#welcomePage #contact {
 	background-color: rgba(102, 204, 255, 0.9);
 	border-radius: 2em;
 	width: 55%;
@@ -90,12 +90,12 @@ ul {
 	padding: 0.01em 1% 1em 1%;
 }
 
-#logo-container {
+#welcomePage #logo-container {
 	width: 100%;
 	margin: 0 auto 0 auto;
 }
 
-#logo {
+#welcomePage #logo {
 	margin: 10% auto 30% auto;
 	width: 35%;
 
@@ -128,7 +128,7 @@ ul {
 	text-indent: 0;
 }
 
-.element {
+#welcomePage .element {
 	width: 50%;
 }
 
@@ -151,17 +151,17 @@ ul {
 }
 /* if you... */
 
-#row6 {
+#welcomePage #row6 {
 	margin: 5% 0 5% 0;
 }
 
-#links {
+#welcomePage #links {
 	margin: 0 auto 0 auto;
 	width: 80%;
 	display: inline-block;
 }
 
-#links p {
+#welcomePage #links p {
 	display: inline-block;
 	margin: 4%;
 	min-height: 4em;
@@ -172,21 +172,21 @@ ul {
 	border-radius: 50%;
 }
 
-#links p a {
+#welcomePage #links p a {
 	text-align: center;
 	vertical-align: -1.5em;
 	padding: auto;
 }
 
-#links p:hover {
+#welcomePage #links p:hover {
 	padding: 1% auto 1% auto;
 	background-color: none;
 }
 
 /* "Work Hard" */
 
-#row7 {
-	margin: 15% 0 5% 0;
+#welcomePage #row7 {
+	padding: 15% 0 5% 0;
 }
 
 /*  ------ MOBILE for #welcomePage -- */
@@ -194,42 +194,42 @@ ul {
 
 
 @media screen and (max-width: 850px) {
-	#believe,
-	#want,
-	#contact {
+	#welcomePage #believe,
+	#welcomePage #want,
+	#welcomePage #contact {
 		width: 65%;
 	}
 
-		#links {
+		#welcomePage #links {
 		width: 85%;
 	}
 
-	#logo {
+	#welcomePage #logo {
 		width: 40%;
 	}
 }
 
 
 @media screen and (max-width: 700px) {
-	#believe,
-	#want,
-	#contact {
+	#welcomePage #believe,
+	#welcomePage #want,
+	#welcomePage #contact {
 		width: 75%;
 	}
 
-	#links {
+	#welcomePage #links {
 		width: 90%;
 	}
 
-	#logo {
+	#welcomePage #logo {
 		width: 50%;
 	}
 }
 
 @media screen and (max-width: 520px) {
-	#believe,
-	#want,
-	#contact {
+	#welcomePage #believe,
+	#welcomePage #want,
+	#welcomePage #contact {
 		width: 85%;
 	}
 
@@ -238,19 +238,19 @@ ul {
 		font-size: 1.8em;
 	}
 
-	#links {
+	#welcomePage #links {
 		width: 95%;
 	}
 
-	#logo {
+	#welcomePage #logo {
 		width: 60%;
 	}
 }
 
 @media screen and (max-width: 350px) {
-	#believe,
-	#want,
-	#contact {
+	#welcomePage #believe,
+	#welcomePage #want,
+	#welcomePage #contact {
 		width: 90%;
 	}
 
@@ -259,11 +259,11 @@ ul {
 		font-size: 1.5em;
 	}
 
-	#links {
+	#welcomePage #links {
 		width: 100%;
 	}
 
-	#logo {
+	#welcomePage #logo {
 		width: 80%;
 	}
 }
@@ -273,9 +273,9 @@ ul {
 		font-size: 4.5em;
 	}
 
-	#believe,
-	#want,
-	#contact {
+	#welcomePage #believe,
+	#welcomePage #want,
+	#welcomePage #contact {
 		width: 95%;
 	}
 
@@ -284,14 +284,14 @@ ul {
 		font-size: 1.3em;
 	}
 
-	#logo {
+	#welcomePage #logo {
 		width: 95%;
 		margin-bottom: 50%;
 	}
 }
 
 /*
------- properties and values for #welcomePage ------
+------ END properties and values for #welcomePage ------
 */
 
 
@@ -313,93 +313,72 @@ ul {
 	width: 100%;
 }
 
-#workPage .column-left {
-	float: left;
-	width: 40%;
-	padding: 1%;
-	margin: 1% auto 2% auto;
+/* ---- Navigation Values ----- */
+
+/* ---- .navLeft ----- */
+#workPage .navLeft {
+	padding: 2%;
+	width: 20%;
 	display: inline-block;
 }
 
-#workPage .column-right {
-	float: right;
-	width: 60%;
-	padding: 1%;
-	margin: 1% auto 2% auto;
+#workPage .navLeft a {
+	width: 100%;
+	height: auto;
+	position: static;
 	display: inline-block;
 }
 
-#workPage .column-center {
+#workPage .navLeft img {
 	width: 100%;
 }
 
-/* ---- Navigation Values ----- */
 
-.navLeft {
-	float: left;
-	margin: 2%;
-	padding: 1%;
-	width: 25%;
-}
-
-.navRight {
-	float: right;
-	margin: 2%;
-	padding: 1%;
-	width: 65%;
-}
-
-
-#navLogo {
-	margin: -4% auto 2% auto;
-	width: 55%;
+/* ---- .navRight ----- */
+#workPage .navRight {
+	padding: 2%;
+	width: 71%;
+	display: inline-block;
+	vertical-align: 150%;
 }
 
 #workPage ul {
 	list-style: none;
-	padding: 0;
+	padding: 1.25% 0 0 0;
 	width: 100%;
+	margin:
 }
 
-#workPage ul li {
+#workPage .navRow ul li {
 	background: rgba(255, 255, 255, 0.8);
-	text-align: center;
-	width: 28%;
-	padding: 0 auto 0 auto;
+	width: 27%;
 	margin: 1% 2% 1% 2%;
+	padding: 0.3em 0 0.1em 0;
 	border: 0.2em solid white;
 	border-radius: 2em;
-	font-weight: 700;
-	display: inline-block;
-	max-width: 30%;
-}
 
-#workPage ul li {
-	padding: 0.3em 0 0.1em 0;
+	text-align: center;
+	font-weight: 700;
+
+	display: inline-block;
 }
 
 #workPage .navRight p {
 	width: 90%;
 	margin: 2% 2% 1% 10%;
-	flex-grow: 1;
 }
 
 /* ---- WORK PROJECTS SECTION ----- */
 
-.workSection {
+#workPage .workSection {
 	padding: 3%;
 	width: 94%;
 	text-align: right;
 }
 
-.white {
+/* - work projects TITLES - */
+#workPage .white {
 	color: white;
-}
-
-#workPage .row {
-	padding: 1%;
-	margin: 1%;
-	width: 94%;
 }
 
 #workPage .column-center {
@@ -414,44 +393,170 @@ ul {
 	margin: 1% 5% 2% 1%;
 }
 
-#pLinks .column-center {
+/* - work projects HIGHLIGHTS - */
+
+#workPage #pHighlights ul {
+	width: 100%;
 }
 
-#pLinks p {
-	margin: -2% auto -2% auto;
+#workPage #pHighlights ul li {
+	display: inline-block;
+	padding: 0.4em 0.3em 0.2em 0.3em;
+	margin: 1%;
+
+	background: rgba(255, 255, 255, 0.8);
+	border: 0.2em solid white;
+	border-radius: 2em;
+}
+
+
+
+/* - work projects LINKS - */
+
+#pLinks {
+	width: 100%;
+	padding: 1% 0;
+}
+
+#workPage #pLinks .column-left,
+#workPage #pLinks .column-right {
+	display: inline-block;
+	width: 47.70%;
+	padding: 1%;
+	margin: 0 auto 0 auto;
 	text-align: center;
-	padding: 1% 2% 1% 2%;
+	position: static;
+}
+
+#workPage #pLinks p {
+	width: 50%;
+	margin: 1% auto 1% auto;
+	text-align: center;
+	padding: 2% 2% 1% 2%;
 	color: white;
 	background: black;
 	border: 2px solid white;
 	border-radius: 2px;
-	display: inline-block;
+	display: block;
 }
 
-#pSlider {
+#workPage #pLinks p:hover {
+	background: rgba(255, 255, 255, 0.8);
+}
+
+#workPage #pLinks a:hover {
+	color: black;
+}
+
+/* - work projects IMAGES - */
+
+#workPage #pSlider {
 	width: 100%;
-	height: 30em;
+	padding: 2% 0 5% 0;
 	overflow: hidden;
 	position: relative;
 }
 
-.sliderContainer {
+#workPage .sliderContainer {
+	height: 35em;
+	overflow: hidden;
 	position: static;
 }
 
-#pSlider a {
+#workPage #pSlider a {
 	position: absolute;
 	width: 98%;
 	height: 100%;
 }
 
-#pSlider img {
-	position: relative;
+#workPage #pSlider img {
+	position: absolute;
+	right: 101%;
+	top: 0;
 	width: 100%;
 }
 
+
+/* - work projects BACKGROUND - */
 #workPage #p3,
 #workPage #p1 {
 	background-color: rgba(245, 255, 255, 0);
 	transition: background 10s ease-out;
+}
+
+
+/*
+------ mobile for #workPage --------------
+------ mobile for #workPage --------------
+*/
+
+
+@media screen and (max-width: 930px) {
+	#workPage .navRow ul li {
+		width: 26%;
+		margin: 0.5%;
+	}
+
+	#workPage .sliderContainer {
+		height: 25em;
+	}
+}
+
+@media screen and (max-width: 710px) {
+	#workPage #pLinks .column-left,
+	#workPage #pLinks .column-right {
+		display: inline-block;
+		width: 47%;
+	}
+
+	#workPage .sliderContainer {
+		height: 20em;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	#workPage .navRow ul li {
+		width: 26%;
+		margin: 0.5% 1% 0.5% 1%;
+	}
+
+	#workPage .navRow {
+		padding: 0 0 2% 0;
+	}
+
+	#pLinks p {
+		width: 75%;
+	}
+
+	#workPage .sliderContainer {
+		height: 15em;
+	}
+}
+
+@media screen and (max-width: 410px) {
+	#workPage .navLeft {
+		display: block;
+		width: 80%;
+		margin: 0 auto 0 auto;
+		padding: 1% 2% 1% 2%;
+	}
+
+	#workPage .navRight {
+		display: block;
+		width: 100%;
+	}
+
+	#workPage .navRow {
+		padding: 0 0 5% 0;
+	}
+
+	#workPage #pHighlights ul li {
+		font-size: 1em;
+		padding: 0.1em 0.1em 0.02em 0.1em;
+		margin: 0.5% 0.2% 0.5% 0.2%;
+	}
+
+	#workPage .sliderContainer {
+		height: 10em;
+	}
 }
