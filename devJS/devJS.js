@@ -25,16 +25,18 @@ $(document).ready(function() {
 		var y_scroll = window.pageYOffset;
 
 		if(y_scroll > 100) {
-			$("#logo").css("width", "50%");
+			$("#logo").css("width", "20%");
 			$("#logo").css("position", "fixed");
-			$("#logo").css("left", "-15%");
+			$("#logo").css("left", "1%");
 			$("#logo").css("top", "1%");
-			$("#row1").css("height","30em");
+			$("#logo").css("margin", "0");
+			$("#row1").css("height","23em");
 		}
 		if(y_scroll < 10) {
-			$("#logo").css("width", "100%");
+			$("#logo").css("width", "50%");
 			$("#logo").css("position", "static");
 			$("#row1").css("height","45em");
+			$("#logo").css("margin", "10% auto 30% auto");
 		}
 	});
 

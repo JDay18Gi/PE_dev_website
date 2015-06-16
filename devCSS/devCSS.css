@@ -3,8 +3,10 @@
 
 html {
 	background: #cfc url(../devImages/devHomImage.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
-	overflow-x: hidden;
 	width: 100%;
 
 }
@@ -94,8 +96,8 @@ ul {
 }
 
 #logo {
-	margin: -10% auto 0 auto;
-	width: 100%;
+	margin: 10% auto 30% auto;
+	width: 35%;
 
 	-webkit-transition: width 2s ease-out;
 	-moz-transition: width 2s ease-out;
@@ -144,6 +146,9 @@ ul {
 	list-style-type: none;
 }
 
+#welcomePage ul li {
+	line-height: 1.15em;
+}
 /* if you... */
 
 #row6 {
@@ -151,12 +156,13 @@ ul {
 }
 
 #links {
-	display: inline-flex;
-	width: 50%;
+	margin: 0 auto 0 auto;
+	width: 80%;
+	display: inline-block;
 }
 
 #links p {
-	flex-grow: 1;
+	display: inline-block;
 	margin: 4%;
 	min-height: 4em;
 	min-width: 4em;
@@ -183,6 +189,113 @@ ul {
 	margin: 15% 0 5% 0;
 }
 
+/*  ------ MOBILE for #welcomePage -- */
+/*  ------ MOBILE for #welcomePage -- */
+
+
+@media screen and (max-width: 850px) {
+	#believe,
+	#want,
+	#contact {
+		width: 65%;
+	}
+
+		#links {
+		width: 85%;
+	}
+
+	#logo {
+		width: 40%;
+	}
+}
+
+
+@media screen and (max-width: 700px) {
+	#believe,
+	#want,
+	#contact {
+		width: 75%;
+	}
+
+	#links {
+		width: 90%;
+	}
+
+	#logo {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	#believe,
+	#want,
+	#contact {
+		width: 85%;
+	}
+
+	#welcomePage p,
+	#welcomePage li {
+		font-size: 1.8em;
+	}
+
+	#links {
+		width: 95%;
+	}
+
+	#logo {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	#believe,
+	#want,
+	#contact {
+		width: 90%;
+	}
+
+	#welcomePage p,
+	#welcomePage li {
+		font-size: 1.5em;
+	}
+
+	#links {
+		width: 100%;
+	}
+
+	#logo {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#welcomePage h1 {
+		font-size: 4.5em;
+	}
+
+	#believe,
+	#want,
+	#contact {
+		width: 95%;
+	}
+
+	#welcomePage p,
+	#welcomePage li {
+		font-size: 1.3em;
+	}
+
+	#logo {
+		width: 95%;
+		margin-bottom: 50%;
+	}
+}
+
+/*
+------ properties and values for #welcomePage ------
+*/
+
+
+
 
 /*
 ====== properties and values for #workPage =======
@@ -193,27 +306,27 @@ ul {
 #workPage {
 	width: 100%;
 	background: rgba(102, 204, 255, 0.9);
+	overflow-x: hidden;
 }
 
 #workPage .row {
 	width: 100%;
-	display: inline-flex;
 }
 
 #workPage .column-left {
-	flex-grow: 1;
 	float: left;
 	width: 40%;
 	padding: 1%;
 	margin: 1% auto 2% auto;
+	display: inline-block;
 }
 
 #workPage .column-right {
-	flex-grow: 1;
 	float: right;
-	width: 40%;
+	width: 60%;
 	padding: 1%;
 	margin: 1% auto 2% auto;
+	display: inline-block;
 }
 
 #workPage .column-center {
@@ -244,7 +357,6 @@ ul {
 
 #workPage ul {
 	list-style: none;
-	display: inline-flex;
 	padding: 0;
 	width: 100%;
 }
@@ -258,7 +370,7 @@ ul {
 	border: 0.2em solid white;
 	border-radius: 2em;
 	font-weight: 700;
-	flex-grow: 1;
+	display: inline-block;
 	max-width: 30%;
 }
 
@@ -303,7 +415,6 @@ ul {
 }
 
 #pLinks .column-center {
-	display: inline-flex;
 }
 
 #pLinks p {
@@ -314,6 +425,7 @@ ul {
 	background: black;
 	border: 2px solid white;
 	border-radius: 2px;
+	display: inline-block;
 }
 
 #pSlider {

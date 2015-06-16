@@ -26,7 +26,7 @@
 
 	<div class="row" id="row1">
 		<div class="col-center" id="logo-container">
-			<img id="logo" src="devImages/Ch_logo_w.png" alt="Create Hard Brand Logo">
+			<img id="logo" src="devImages/Ch_logo_large.png" alt="Create Hard Brand Logo">
 		</div>
 	</div>
 
