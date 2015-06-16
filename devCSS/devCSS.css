@@ -311,6 +311,7 @@ ul {
 
 #workPage .row {
 	width: 100%;
+	overflow-x: hidden;
 }
 
 /* ---- Navigation Values ----- */
